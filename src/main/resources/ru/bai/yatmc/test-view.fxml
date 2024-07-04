@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.bai.yatmc.controller.TestViewController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="638.0" prefWidth="587.0" style="-fx-background-color: fafafa;">
+         <children>
+            <AnchorPane prefHeight="84.0" prefWidth="600.0" style="-fx-background-color: #3f24f0;">
+               <children>
+                  <Label layoutX="160.0" layoutY="12.0" prefHeight="30.0" prefWidth="281.0" text="Character List" textFill="#fafafa" underline="true">
+                     <font>
+                        <Font name="Advokat Modern" size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <TextField id="nameTextField" fx:id="nameTextField" layoutX="16.0" layoutY="121.0" prefHeight="33.0" prefWidth="324.0" promptText="name" style="-fx-border-color: black; -fx-border-radius: 8;" />
+            <TextField fx:id="strTextField" layoutX="130.0" layoutY="160.0" prefHeight="33.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-radius: 8;" />
+            <Button fx:id="testButton" layoutX="427.0" layoutY="137.0" mnemonicParsing="false" text="Button" />
+            <TextField fx:id="dexTextField" layoutX="130.0" layoutY="205.0" prefHeight="33.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-radius: 8;" />
+            <TextField fx:id="conTextField" layoutX="130.0" layoutY="248.0" prefHeight="33.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-radius: 8;" />
+            <TextField fx:id="intTextField" layoutX="300.0" layoutY="160.0" prefHeight="33.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-radius: 8;" />
+            <TextField fx:id="wisTextField" layoutX="300.0" layoutY="205.0" prefHeight="33.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-radius: 8;" />
+            <TextField fx:id="chaTextField" layoutX="300.0" layoutY="248.0" prefHeight="33.0" prefWidth="40.0" style="-fx-border-color: black; -fx-border-radius: 8;" />
+            <TextField layoutX="14.0" layoutY="161.0" prefHeight="19.0" prefWidth="112.0" promptText="Strength" />
+            <TextField layoutX="14.0" layoutY="206.0" prefHeight="19.0" prefWidth="112.0" promptText="Dexterity" />
+            <TextField layoutX="14.0" layoutY="249.0" prefHeight="19.0" prefWidth="112.0" promptText="Constitution" />
+            <TextField layoutX="182.0" layoutY="161.0" prefHeight="19.0" prefWidth="112.0" promptText="Intellegence" />
+            <TextField layoutX="182.0" layoutY="206.0" prefHeight="19.0" prefWidth="112.0" promptText="Wisdom" />
+            <TextField layoutX="182.0" layoutY="249.0" prefHeight="19.0" prefWidth="112.0" promptText="Charisma" />
+            <Button fx:id="skillButton" layoutX="395.0" layoutY="319.0" mnemonicParsing="false" text="Skills" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
